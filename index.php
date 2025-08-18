@@ -5,17 +5,10 @@
         <title>Trackit</title>
         <meta charset="UTF-8">
         <link href="./style/style.css" rel="stylesheet">
+        <link href="./style/style_index.css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h2><a href="">Home</a></h2>
-            <h2><a href="./pages/diary.php">Diary</a></h2>
-            <h2><a href="./pages/books.php">Books</a></h2>
-            <h2><a href="./pages/stats.php">Stats</a></h2>
-            <h2><a href="./pages/register.php">Register</a></h2>
-            <h2><a href="./pages/login.php">Log in</a></h2>
-            <h2><a href="./pages/account.php">Account</a></h2>
-        </header>
+        <?php include "./includes/header.php"?>
         <main>
             <h1>Trackit allows you to set and achive study goals</h1>
             <img id="graduation-img" src="./public/graduation.png">
@@ -33,15 +26,6 @@
             </div>
             </div>
         </main>
-
-        <footer>
-            <ul>
-                <li>Creator</li>
-                <li>About us</li>
-                <li>Sponsors</li>
-                <li>Visión</li>
-                <li>Job opportunities</li>
-            </ul>
-        </footer>
+        <?php include "./includes/footer.php"?>
     </body>
 </html>
