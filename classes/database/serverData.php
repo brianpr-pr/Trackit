@@ -1,8 +1,14 @@
 <?php
 class ServerData{
-    private $host = "localhost";
-    private $username = "root";
-    private $password = "";
+    private $host;
+    private $username;
+    private $password;
+
+    public function __construct(string $host,string $username,string $password){
+        $this->host=$host;
+        $this->username=$username;
+        $this->password=$password;
+    }
     public function getHost(){
         return $this->host;
     }

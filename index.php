@@ -8,6 +8,7 @@
         <link href="./styles/styleIndex.css" rel="stylesheet">
     </head>
     <body>
+    <?php include "./components/database/initialize.php";?>
         <?php include "./includes/header.php";?>
         <main>
             <h1>Trackit allows you to set and achive study goals</h1>
@@ -23,18 +24,6 @@
             This was a life changer for me, this web allows me to keep improving my study sesions based on statistics that are real,<br>
         Apart from not having to rely on feeling that im not doing enough.</p>
                 <img class="img-review" src="public/astronaut.png">
-            </div>
-            <div>
-                <h2><?php 
-                    try{
-                    $test = new ServerData();
-                    //echo $test->getHost();
-                    //$obj = new Connector($test);
-                    //$pdoReturned = $obj->getPdo('data_test');
-                    } catch(Exception $e){
-                        echo "Exception";
-                    }
-                ?></h2>
             </div>
         </main>
         <?php include "./includes/footer.php";?>
