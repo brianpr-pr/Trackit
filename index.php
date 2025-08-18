@@ -8,7 +8,7 @@
         <link href="./styles/style_index.css" rel="stylesheet">
     </head>
     <body>
-        <?php include "./includes/header.php"?>
+        <?php include "./includes/header.php";?>
         <main>
             <h1>Trackit allows you to set and achive study goals</h1>
             <img id="graduation-img" src="./public/graduation.png">
@@ -26,6 +26,10 @@
             </div>
             </div>
         </main>
-        <?php include "./includes/footer.php"?>
+        <?php include "./includes/footer.php";
+        echo "<h2 style='margin-left:22px;'>" . basename($_SERVER['SCRIPT_NAME'],"\\") . "</h2>";
+        ?>
+
+
     </body>
 </html>
