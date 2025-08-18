@@ -8,13 +8,13 @@
     </head>
     <body>
         <header>
-            <h2><a>Home</a></h2>
-            <h2><a>Diary</a></h2>
-            <h2><a>Books</a></h2>
-            <h2><a>Stats</a></h2>
-            <h2><a>Register</a></h2>
-            <h2><a>Log in</a></h2>
-            <h2><a>Account</a></h2>
+            <h2><a href="">Home</a></h2>
+            <h2><a href="./pages/diary.php">Diary</a></h2>
+            <h2><a href="./pages/books.php">Books</a></h2>
+            <h2><a href="./pages/stats.php">Stats</a></h2>
+            <h2><a href="./pages/register.php">Register</a></h2>
+            <h2><a href="./pages/login.php">Log in</a></h2>
+            <h2><a href="./pages/account.php">Account</a></h2>
         </header>
         <main>
             <h1>Trackit allows you to set and achive study goals</h1>
