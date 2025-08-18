@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href=".././styles/style_general.css">
-        <link rel="stylesheet" href=".././styles/style_.css">
+        <link rel="stylesheet" href=".././styles/styleGeneral.css">
+        <link rel="stylesheet" href=".././styles/styleDiary.css">
         <meta charset="UTF-8">
         <title></title>
     </head>

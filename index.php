@@ -1,11 +1,11 @@
-<?php include "./includes/classes_handler.php";?>
+<?php include "./includes/classesHandler.php";?>
 <!DOCTYPE html>
 <html>
     <head>
         <title>Trackit</title>
         <meta charset="UTF-8">
-        <link href="./styles/style_general.css" rel="stylesheet">
-        <link href="./styles/style_index.css" rel="stylesheet">
+        <link href="./styles/styleGeneral.css" rel="stylesheet">
+        <link href="./styles/styleIndex.css" rel="stylesheet">
     </head>
     <body>
         <?php include "./includes/header.php";?>
@@ -24,12 +24,19 @@
         Apart from not having to rely on feeling that im not doing enough.</p>
                 <img class="img-review" src="public/astronaut.png">
             </div>
+            <div>
+                <h2><?php 
+                    try{
+                    $test = new ServerData();
+                    //echo $test->getHost();
+                    //$obj = new Connector($test);
+                    //$pdoReturned = $obj->getPdo('data_test');
+                    } catch(Exception $e){
+                        echo "Exception";
+                    }
+                ?></h2>
             </div>
         </main>
-        <?php include "./includes/footer.php";
-        echo "<h2 style='margin-left:22px;'>" . basename($_SERVER['SCRIPT_NAME'],"\\") . "</h2>";
-        ?>
-
-
+        <?php include "./includes/footer.php";?>
     </body>
 </html>
