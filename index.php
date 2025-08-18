@@ -4,8 +4,8 @@
     <head>
         <title>Trackit</title>
         <meta charset="UTF-8">
-        <link href="./style/style.css" rel="stylesheet">
-        <link href="./style/style_index.css" rel="stylesheet">
+        <link href="./styles/style_general.css" rel="stylesheet">
+        <link href="./styles/style_index.css" rel="stylesheet">
     </head>
     <body>
         <?php include "./includes/header.php"?>
