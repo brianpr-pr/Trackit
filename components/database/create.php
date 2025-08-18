@@ -1,8 +1,5 @@
 <?php
-function createDataBase(PDO $conn){
-    echo "";
-    /*
-    $query = "CREATE DATABASE testxxx;";
-    $conn->exec($query);*/
+function createDataBase(PDO $conn, $databaseName){
+    $query = "CREATE DATABASE $databaseName;";
+    $conn->exec($query);
 }
-echo "Ho.a";

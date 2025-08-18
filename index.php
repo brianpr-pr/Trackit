@@ -27,5 +27,6 @@
             </div>
         </main>
         <?php include "./includes/footer.php";?>
+        <?php echo "Test:".$testX?>
     </body>
 </html>
