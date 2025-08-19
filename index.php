@@ -1,16 +1,6 @@
+<?php include "./config/general.php"?>
 <?php include "./includes/classesHandler.php";?>
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Trackit</title>
-        <meta charset="UTF-8">
-        <link href="./styles/styleGeneral.css" rel="stylesheet">
-        <link href="./styles/styleIndex.css" rel="stylesheet">
-    </head>
-    <body>
-    <?php include "./components/database/initialize.php";?>
-        <?php include "./includes/header.php";?>
-        <main>
+<?php include "./includes/head.php"?>
             <h1>Trackit allows you to set and achive study goals</h1>
             <img id="graduation-img" src="./public/graduation.png">
             <div id="first-review" class="review">

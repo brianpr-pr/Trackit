@@ -1,4 +1,5 @@
 <?php
+
 //Name of the actual file
 $nameFile = basename($_SERVER['SCRIPT_NAME'],"\\");
 //Path to the 'root' folder
