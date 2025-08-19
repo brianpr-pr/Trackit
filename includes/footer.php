@@ -1,5 +1,5 @@
-<?php
-echo ' <footer>
+        </main>
+        <footer>
             <ul>
                 <li>Creator</li>
                 <li>About us</li>
@@ -7,4 +7,6 @@ echo ' <footer>
                 <li>Visión</li>
                 <li>Job opportunities</li>
             </ul>
-        </footer>';
+        </footer>
+    </body>
+</html>
