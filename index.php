@@ -15,18 +15,17 @@
             <img id="graduation-img" src="./public/graduation.png">
             <div id="first-review" class="review">
                 <img class="img-review" src="public/doctor.png">
-                <p class="paragraph-review">Thanks to Trackit I was able to finish my degree and i became a doctor,<br>
-            This was a life changer for me, this web allows me to keep improving my study sesions based on statistics that are real,<br>
-        Apart from not having to rely on feeling that im not doing enough.</p>
+                <p class="paragraph-review">Thanks to Trackit, I was able to finish my degree and become a doctor,<br>
+            It truly changed my life. This website helps me improve my study sessions based on real statistics,<br>
+        instead of relying on the feeling that I'm not doing enough.</p>
             </div>
             <div id="second-review" class="review">
-            <p class="paragraph-review">Thanks to Trackit I was able to finish my degree and i became a doctor,<br>
-            This was a life changer for me, this web allows me to keep improving my study sesions based on statistics that are real,<br>
-        Apart from not having to rely on feeling that im not doing enough.</p>
+            <p class="paragraph-review">Thanks to Trackit, I was able to finish my degree and become a doctor,<br>
+            It truly changed my life. This website helps me improve my study sessions based on real statistics,<br>
+        instead of relying on the feeling that I'm not doing enough.</p>
                 <img class="img-review" src="public/astronaut.png">
             </div>
         </main>
         <?php include "./includes/footer.php";?>
-        <?php echo "Test:".$testX?>
     </body>
 </html>
